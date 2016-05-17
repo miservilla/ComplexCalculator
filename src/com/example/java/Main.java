@@ -45,7 +45,6 @@ public class Main {
     public static Double TryParseDouble(){
         Scanner sc = new Scanner(System.in);
         Double number;
-//        sc.next();
         while (!sc.hasNextDouble()) {
             System.out.println("Can not parse, please enter real number!");
             sc.next();
