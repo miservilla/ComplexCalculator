@@ -42,7 +42,7 @@ public class Main {
 
     }
 
-    public static Double TryParseDouble(){
+    private static Double TryParseDouble(){
         Scanner sc = new Scanner(System.in);
         Double number;
         while (!sc.hasNextDouble()) {
